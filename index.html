@@ -1,0 +1,217 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="index.css">
+
+    <script type="text/javascript" src="node_modules/handlebars/dist/handlebars.js"></script>
+
+    <link rel="shortcut icon" type="image/x-icon" href="img/logo.jpg" />
+    <title>Ісландія</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <a href="#Home" class="navbar-brand">Islandtv </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a href="#Hosts" class="nav-link">Hosts</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#Projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#Photos" class="nav-link">Photos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#Contact" class="nav-link">Contact us</a>
+                </li>
+            </ul>
+
+
+        </div>
+
+    </nav>
+
+    <div id="Home" class="container-fluid">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-xs-12">
+                        <img src="img/all.jpg" alt="islandtv" class="w-100" height="307" width="815">
+                    </div>
+                     <div class="col-xs-12">
+                        <img src="img/33.png" alt="islandtv_shedules" class="w-100" >
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div id="Hosts" class="container-fluid">
+        <div class="container">
+            <div class="row text-center justify-content-center">
+                <div class="col">
+                    <h1>Our Hosts:</h1>
+                </div>
+            </div>
+        </div>
+            <div class="container">
+                <div class="row text-center justify-content-center">
+                    <div class="col-xs-12 col-sm-4 col-lg-3">
+                        <img src="img/health_h.png" alt="islandtv_hosts" class="w-100">
+                        <h3>Tania Mykytenko</h3>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-lg-3">
+                        <img src="img/health_h.png" alt="islandtv_hosts" class="w-100">
+                        <h3>Vasyl Krutchak</h3>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-lg-3">
+                        <img src="img/health_h.png" alt="islandtv_hosts" class="w-100">
+                        <h3>Tania Goncharova</h3>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-lg-3">
+                        <img src="img/health_h.png" alt="islandtv_hosts" class="w-100">
+                        <h3>Olya Dibrova</h3>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-lg-3">
+                        <img src="img/health_h.png" alt="islandtv_hosts" class="w-100">
+                        <h3>Bogdan Butkevych</h3>
+
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-lg-3">
+                        <img src="img/health_h.png" alt="islandtv_hosts" class="w-100">
+                        <h3>Olena Ivanova</h3>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-lg-3">
+                        <img src="img/health_h.png" alt="islandtv_hosts" class="w-100">
+                        <h3>Kyrylo Karachentsev</h3>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-lg-3">
+                        <img src="img/health_h.png" alt="islandtv_hosts" class="w-100">
+                        <h3>Andriy Pavlenko</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    <div id="Projects" class="container-fluid">
+        <div class="container">
+            <div class="row text-center justify-content-center">
+                <div class="col">
+                    <h1>Our Projects</h1>
+                </div>
+            </div>
+            <div class="row text-center ">
+                <div class="col-6">
+                    <ul class="projects-list-container"></ul>
+
+                    <script id="projects-template" type="text/x-handlebars-template">
+                        {{#each projects}}
+                        <li class="info">
+
+                            <h2>{{name}}</h2>
+                            {{#if hosts}}{{#if hosts1}}<p>Hosts: {{hosts}}, {{hosts1}}</p>{{/if}}{{/if}}
+                            {{#unless hosts1}}<p>Host: {{hosts}}</p>{{/unless}}
+                            {{#if info}}<p>Info: {{info}}</p>{{/if}}
+                        </li>
+                        {{/each}}
+
+                    </script>
+                </div>
+                    
+            </div>
+        </div>
+            
+        
+        
+        
+    </div>
+        <div id="Photos" class="container-fluid p-0">
+            <div class="container-fluid p-0">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li class="active" data-target="#carouselExampleIndicators" data-slide-to="0"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/1.jpg" alt="first" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/2.jpg" alt="second" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/3.jpg" alt="third" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/4.jpg" title="fourth" alt="fourth" class="d-block w-100">
+                        </div>
+                    </div>
+                    <a href="#carouselExampleIndicators" class="carousel-control-next" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                    <a href="#carouselExampleIndicators" class="carousel-control-prev" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Prev</span>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="Contact" class="container-fluid">
+            <div class="container">
+                <div class="row text-center justify-content-center">
+                    <div class="col">
+                        <h1>Contact us</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">Subscribe:</div>
+                        <div class="col"></div>
+                        <div class="col">Or love mamy and dady:</div>
+                    </div>
+                    <div class="row">
+                        <div class="col">our fb</div>
+                        <div class="col"></div>
+                        <div class="col">our address</div>
+                    </div>
+                    <div class="row">
+                        <div class="col">our fb</div>
+                    </div>
+                    <div class="row">
+                        <div class="col">our fb</div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="scrips.js"></script>
+</body>
+</html>

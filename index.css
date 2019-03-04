@@ -1,0 +1,49 @@
+﻿body {
+    position: relative;
+    height: 2000px;
+}
+
+#Home {
+    padding-top: 50px;
+    height: auto;
+    color: black;
+    font-style:italic;
+    font-size: 24px;
+    background-color: white;
+    margin: auto;
+}
+
+#Hosts {
+    padding-top: 50px;
+    height: auto;
+    color: #fff;
+    background-color: lightgrey;
+}
+
+#Projects {
+    padding-top: 50px;
+    height: auto;
+    color: #fff;
+    background-color: grey;
+}
+
+#Photos {
+    padding-top: 50px;
+    height: auto;
+    color: #fff;
+    background-color: #00bcd4;
+}
+
+#Contact {
+    padding-top: 50px;
+    height: auto;
+    color: #fff;
+    background-color: black;
+}
+.p-0{
+    padding: 0px;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    height: 50px;
+    width: 100px;
+}
