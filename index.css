@@ -11,6 +11,10 @@
     background-color: white;
     margin: auto;
 }
+.row {
+    padding: 10px 10px 10px 10px;
+}
+
 
 #Hosts {
     padding-top: 50px;
@@ -59,7 +63,7 @@
 .map-responsive {
     overflow: hidden;
     position: relative;
-    padding-bottom: 56.25%;
+    padding-bottom: 15%;
     height: 100%;
     width: 100%;
 }
