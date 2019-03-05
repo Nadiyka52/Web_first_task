@@ -1,13 +1,12 @@
 ﻿body {
     position: relative;
-    height: 2000px;
 }
 
 #Home {
     padding-top: 50px;
     height: auto;
     color: black;
-    font-style:italic;
+    font-style: italic;
     font-size: 24px;
     background-color: white;
     margin: auto;
@@ -15,8 +14,9 @@
 
 #Hosts {
     padding-top: 50px;
+    padding-bottom: 50px;
     height: auto;
-    color: #fff;
+    color: grey;
     background-color: lightgrey;
 }
 
@@ -30,20 +30,36 @@
 #Photos {
     padding-top: 50px;
     height: auto;
+    width: auto;
     color: #fff;
-    background-color: #00bcd4;
+    background-color: #525252 ;
 }
 
 #Contact {
     padding-top: 50px;
-    height: auto;
     color: #fff;
     background-color: black;
+    height: auto;
 }
-.p-0{
+
+.p-0 {
     padding: 0px;
+      
 }
+.carousel-inner img{
+    margin: auto;
+    position: relative;
+}
+
 .carousel-control-next-icon, .carousel-control-prev-icon {
     height: 50px;
     width: 100px;
+}
+
+.map-responsive {
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 100%;
+    width: 100%;
 }
