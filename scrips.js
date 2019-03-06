@@ -14,7 +14,7 @@ var cast = {
         },
         {
             "name": "MSA (Media Security Agency)",
-            "hosts": "Tania Mykytenko",
+            "hosts": "Tatyana Mykytenko",
             "hosts1": "Bogdan Butkevych",
             "info": "MSA is an analytical program about the underside of the media world. The purpose of the program is to narrate how the media form our idea of the world while imposing some topics and silencing the other. We study media literacy, help to confront manipulations and recognize fakes and talk about the main players of the market."
         },
@@ -45,13 +45,13 @@ var cast = {
         },
         {
             "name": "Ragu.li",
-            "hosts": "Tania Mykytenko",
+            "hosts": "Tatyana Mykytenko",
             "info": "Entertaining and satirical program about aggressively poor taste that overflows Ukrainian showbiz, cultural, media and political landscapes. The purpose of the program is to offer an alternative assessment of what usually does not receive any critical feedback."
         },
         {
             "name": "School of corruption ",
-            "hosts": "Tania Mykytenko",
-            "hosts1": "Tania Goncharova, Vasyl Krutchak, Volodymyr Petrov",
+            "hosts": "Tatyana Mykytenko",
+            "hosts1": "Tatyana Goncharova, Vasyl Krutchak, Volodymyr Petrov",
             "info": "Educational investigation project about corrupt and anti-corrupt activities of the state officials, politicians and public figures. The school sees no difference between these personages, who are absolutely unaware of instruments and nature of the corrupt processes.Authors and project hosts share common opinion, that the term 'corruption' is interpreted incorrectly in the Ukrainian society and is used mainly as an instrument in political battles as well as a social lift for certain public activists. We know the difference between avarice and corruption and reveal it in the project School of Corruption."
         }
     ]

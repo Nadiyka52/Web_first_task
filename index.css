@@ -4,15 +4,15 @@
 
 #Home {
     padding-top: 50px;
+    padding-bottom: 50px;
     height: auto;
     color: black;
-    font-style: italic;
     font-size: 24px;
     background-color: white;
     margin: auto;
 }
 .row {
-    padding: 10px 10px 10px 10px;
+    padding: 20px 20px 20px 20px;
 }
 
 
@@ -26,6 +26,7 @@
 
 #Projects {
     padding-top: 50px;
+    padding-bottom: 50px;
     height: auto;
     color: #fff;
     background-color: grey;
@@ -33,14 +34,16 @@
 
 #Photos {
     padding-top: 50px;
-    height: auto;
+    padding-bottom: 50px;
+    height: 550px;
     width: auto;
     color: #fff;
-    background-color: #525252 ;
+    background-color: #525252;
 }
 
 #Contact {
     padding-top: 50px;
+    padding-bottom: 50px;
     color: #fff;
     background-color: black;
     height: auto;
@@ -63,7 +66,7 @@
 .map-responsive {
     overflow: hidden;
     position: relative;
-    padding-bottom: 15%;
+    padding-bottom: 10%;
     height: 100%;
     width: 100%;
 }
